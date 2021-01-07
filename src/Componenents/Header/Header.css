@@ -1,0 +1,75 @@
+.HeaderDiv{
+  width:100vw;
+  height: 80px;
+  display:flex;
+  justify-content:space-around;
+  background-color:white;
+  font-family: Poppins;
+  position: sticky;
+  box-shadow: 10px ;
+ 
+
+}
+
+.ImageDiv{
+  height: 70px;
+  width:100px;
+  object-fit:contain;
+}
+.NavDiv{
+  display:flex;
+  justify-content:space-between;
+  width: 50%;
+  color:black;
+}
+/* .Menu{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+} */
+
+.Menu{
+  display:none
+}
+
+@media screen and (max-width: 760px) {
+  .NavDiv {
+    display: none;
+  }
+}
+@media screen and (max-width: 760px) {
+  .Menu {
+    display: block;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+}
+@media screen and (max-width: 760px) {
+  .SideHeader {
+    display: block;
+  }
+}
+
+.SideHeader{
+  height: 200px;
+  width: 100vw;
+  background:white;
+  position: relative;
+  border-radius: 6px;
+  top:80px;
+  right:15px;
+  left:15px;
+  right: 15px;
+  z-index:9999;
+  overflow: auto;
+  transition: ease-in-out 0.2s;
+
+}
+.sideText{
+  margin-left:10px;
+}
+.link{
+  text-decoration: none;
+}

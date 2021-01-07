@@ -1,0 +1,40 @@
+@media screen and (max-width: 760px) {
+  .footer2 {
+    display: none
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .footer3 {
+    display: none
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .footer1 {
+    height: 150px;
+    width:100vw;
+    display: block;
+    display: flex;
+    flex-direction: colomn;
+    margin-left: 40px;
+margin-top: 40px;
+    justify-content: center;
+  }
+}
+
+.footer1{
+  display: flex;
+  flex-direction: column;
+  height:200px ;
+}
+.footer2{
+  text-decoration: none;
+  margin-top: "60px"
+
+}
+
+.link{
+  text-decoration: none;
+  color:black;
+}
